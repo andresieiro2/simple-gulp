@@ -1,0 +1,101 @@
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css';
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700,800);
+@import url(http://fonts.googleapis.com/css?family=Prompt:200,800);
+/* line 4, /Users/andre/Sites/simple-gulp/source/css/fonts/fonts.scss */
+html, body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 9, /Users/andre/Sites/simple-gulp/source/css/fonts/fonts.scss */
+.openSansLight {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+/* line 14, /Users/andre/Sites/simple-gulp/source/css/fonts/fonts.scss */
+.openSansSemiLight {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+/* line 19, /Users/andre/Sites/simple-gulp/source/css/fonts/fonts.scss */
+.openSansSemiBold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+}
+
+/* line 24, /Users/andre/Sites/simple-gulp/source/css/fonts/fonts.scss */
+.openSans {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+/* line 29, /Users/andre/Sites/simple-gulp/source/css/fonts/fonts.scss */
+.openSansBold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+/* line 2, /Users/andre/Sites/simple-gulp/source/css/globals/globals.scss */
+body.no-scroll, body.modal-open, html.no-scroll, html.modal-open {
+  overflow: hidden;
+}
+
+/* line 8, /Users/andre/Sites/simple-gulp/source/css/globals/globals.scss */
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+/* line 12, /Users/andre/Sites/simple-gulp/source/css/globals/globals.scss */
+a:active, a:hover, a:visited {
+  text-decoration: none;
+}
+
+/* line 18, /Users/andre/Sites/simple-gulp/source/css/globals/globals.scss */
+.wrapper {
+  width: 1200px;
+  margin: auto;
+}
+
+/* line 23, /Users/andre/Sites/simple-gulp/source/css/globals/globals.scss */
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+/* line 1, /Users/andre/Sites/simple-gulp/source/css/shared/header.scss */
+#header {
+  background: #EEEEEE;
+  height: 60px;
+}
+
+/* line 1, /Users/andre/Sites/simple-gulp/source/css/shared/footer.scss */
+#footer {
+  background: #ff0000;
+  height: 50px;
+}
+
+/* line 1, /Users/andre/Sites/simple-gulp/source/css/sections/start.scss */
+#start {
+  background: #777777;
+  padding: 50px;
+}
+
+/* line 4, /Users/andre/Sites/simple-gulp/source/css/sections/start.scss */
+#start .carousel {
+  width: 500px;
+  margin: auto;
+}
+
+/* line 9, /Users/andre/Sites/simple-gulp/source/css/sections/start.scss */
+#start .slick-track {
+  height: auto;
+}
+
+/* line 12, /Users/andre/Sites/simple-gulp/source/css/sections/start.scss */
+#start .slick-track img {
+  width: 100%;
+  height: auto;
+}

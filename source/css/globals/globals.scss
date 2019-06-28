@@ -1,0 +1,26 @@
+body,html {
+  &.no-scroll, &.modal-open {
+    overflow: hidden;
+  }
+
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+
+  &:active, &:hover, &:visited {
+    text-decoration: none;
+  }
+
+}
+
+.wrapper {
+  width: 1200px;
+  margin:auto;
+}
+
+.col-centered{
+  float: none;
+  margin: 0 auto;
+}

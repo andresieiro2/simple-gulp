@@ -1,0 +1,32 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,500,700,800);
+@import url(http://fonts.googleapis.com/css?family=Prompt:200,800);
+
+html, body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.openSansLight {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.openSansSemiLight {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.openSansSemiBold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+}
+
+.openSans {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+
+.openSansBold {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}

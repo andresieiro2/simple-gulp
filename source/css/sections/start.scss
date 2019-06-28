@@ -1,0 +1,17 @@
+#start {
+  background: #777777;
+  padding: 50px;
+  .carousel {
+    width: 500px;
+    margin: auto;
+  }
+
+  .slick-track {
+    height: auto;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
