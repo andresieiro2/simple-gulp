@@ -19,7 +19,7 @@
     "requirejs": "^2.3.2"
   },
   "devDependencies": {
-    "gulp": "3.9.1",
+    "gulp": "4.0.2",
     "gulp-htmlmin": "^3.0.0",
     "gulp-imagemin": "^3.0.3",
     "gulp-install": "^0.6.0",
